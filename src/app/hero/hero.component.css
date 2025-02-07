@@ -34,3 +34,12 @@ button{
   grid-template-columns: auto auto auto auto;
   gap: 5px;
 }
+.hight{
+  background-color: green;
+}
+.medium{
+  background-color: orange;
+}
+.low{
+  background-color: red;
+}
