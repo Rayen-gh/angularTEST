@@ -1,0 +1,13 @@
+<h1 class="title">Hero app</h1>
+<div class="input">
+<input type="text" placeholder="Hero name">
+<input type="number" placeholder="Power">
+<input type="text" placeholder="image"><button>Create</button>
+</div>
+<div class="card-grid">
+<div class="card" *ngFor="let item of hero">
+  <img src="{{item.imageURL}}" alt="404 not found">
+  <h3>{{item.name}}</h3>
+  <p>{{item.Power}}</p>
+</div>
+</div>
