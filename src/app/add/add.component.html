@@ -4,10 +4,3 @@
 <input [(ngModel)]="hero.Power" type="number" placeholder="Power">
 <input [(ngModel)]="hero.imageURL" type="text" placeholder="image"><button (click)="ajout()">Create</button>
 </div>
-<div class="card-grid" >
-<div class="card" *ngFor="let item of heros" [ngClass]="{'hight': item.Power>=100, 'medium':  item.Power > 50 && item.Power < 100, 'low':item.Power<50}">
-  <img src="{{item.imageURL}}" alt="404 not found">
-  <h3>{{item.name}}</h3>
-  <p>{{item.Power}}</p>
-</div>
-</div>

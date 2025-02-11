@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+}
+.input{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    padding: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+}
